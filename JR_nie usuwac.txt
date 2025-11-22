@@ -48,6 +48,9 @@ VALUES (NULL,'Hobbit','2021-10-01'),
 (NULL,'Hobbiton','2022-11-01'),
 (NULL,'Hobbitowo','2023-12-03');
 
+// Pierwszy select :)
+
+SELECT `IMIE`,`NAZWISKO`,`DZIAL` FROM `prac2025`
 
 
 
