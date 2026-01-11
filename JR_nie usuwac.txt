@@ -130,6 +130,9 @@ ALTER VIEW WIDOK1 AS SELECT * FROM prac2025 WHERE `NAZWISKO`LIKE "B%"
 
 SELECT pracownicy2025.NAZWISKO,pracownicy2025.IMIE,stanowisko2025.STANOWISKO FROM `pracownicy2025`,`stanowisko2025` WHERE pracownicy2025.ids = stanowisko2025.id
 
+SELECT pracownicy2025.NAZWISKO,pracownicy2025.IMIE,stanowisko2025.STANOWISKO FROM `pracownicy2025`,`stanowisko2025` WHERE pracownicy2025.ids = stanowisko2025.id and stanowisko2025.stanowisko = "sprzedawca"
+
+
 
 
 
