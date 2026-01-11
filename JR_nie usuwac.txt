@@ -134,6 +134,10 @@ SELECT pracownicy2025.NAZWISKO,pracownicy2025.IMIE,stanowisko2025.STANOWISKO FRO
 
 SELECT pracownicy2025.NAZWISKO,pracownicy2025.IMIE,stanowisko2025.STANOWISKO FROM `pracownicy2025` JOIN stanowisko2025 ON pracownicy2025.ids = stanowisko2025.id 
 
+SELECT pracownicy2025.NAZWISKO,pracownicy2025.IMIE,stanowisko2025.STANOWISKO FROM `pracownicy2025` JOIN stanowisko2025 ON pracownicy2025.ids = stanowisko2025.id WHERE stanowisko2025.stanowisko = "sprzedawca"
+
+
+
 
 
 
