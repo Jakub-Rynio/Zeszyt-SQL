@@ -159,6 +159,16 @@ FROM pracownicy2025
 JOIN stanowisko2025 ON pracownicy2025.ids = stanowisko2025.id WHERE pracownicy2025.NR_TELEFONU LIKE "%1"
 
 
+ALTER VIEW widok3 AS
+SELECT
+pracownicy2025.NR_PRACOWNIKA, 
+pracownicy2025.IMIE,
+pracownicy2025.NAZWISKO, 
+pracownicy2025.PENSJA,
+pracownicy2025.DODATEK,
+stanowisko2025.STANOWISKO
+FROM pracownicy2025
+JOIN stanowisko2025 ON pracownicy2025.ids = stanowisko2025.id WHERE pracownicy2025.PENSJA <= 4700
 
 
 
