@@ -136,6 +136,7 @@ SELECT pracownicy2025.NAZWISKO,pracownicy2025.IMIE,stanowisko2025.STANOWISKO FRO
 
 SELECT pracownicy2025.NAZWISKO,pracownicy2025.IMIE,stanowisko2025.STANOWISKO FROM `pracownicy2025` JOIN stanowisko2025 ON pracownicy2025.ids = stanowisko2025.id WHERE stanowisko2025.stanowisko = "sprzedawca"
 
+CREATE VIEW WIDOK3 AS SELECT pracownicy2025.NR_PRACOWNIKA, pracownicy2025.IMIE, pracownicy2025.NAZWISKO, pracownicy2025.DZIAL, pracownicy2025.DODATEK, stanowisko2025.STANOWISKO FROM pracownicy2025, stanowisko2025 WHERE pracownicy2025.Dodatek < 500
 
 
 
